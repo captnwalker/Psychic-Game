@@ -1,10 +1,10 @@
- //Setting variables and zeroing counters (`var attempts` set to 9 yeilds 10 total attempts as numbering begins with zero)
- var won = 0;
- var lost = 0;
- var attempts = 10;
- var usedArray = [];      
- var ranLetter = ranLetter;
- var letters = "qwertyuiopasdfghjklzxcvbnm"
+//Setting variables and zeroing counters (`var attempts` set to 9 yeilds 10 total attempts as numbering begins with zero)
+var won = 0;
+var lost = 0;
+var attempts = 10;
+var usedArray = [];      
+var ranLetter = ranLetter;
+var letters = "qwertyuiopasdfghjklzxcvbnm"
  
 //GENERATING THE COMPUTERS SECRET LETTER
 //Generates random number (decimal from 0 to 1) which is multiplied by 26 and the rounded down to the nearest whole number by the Math.floor method. 
@@ -29,7 +29,7 @@ document.onkeyup = function(event) {
          won++;      
          attempts = 10;
          usedArray = [];
-
+         
 }
 
 //HANDELING INCORRECT GUESSES
@@ -47,7 +47,7 @@ jsGuess();
          attempts = 10;
 }
 
-//HANDELING INCORRECT GUESSES
+//HANDELING INCORRECT GUESSES - OUTPUT
 //this 'if' prevents a letter selected a 2nd time from being written to the usedArray again, although it still counts as a guess
    if (usedArray.indexOf(playerGuess) >= 0) {
  
@@ -58,10 +58,10 @@ jsGuess();
       console.log(usedArray);     
 
 } 
-
+//OUTPUT TO HTML
 //these statements write the values/scores generated to the HTML
- document.getElementById('won').innerHTML = won;
- document.getElementById('lost').innerHTML = lost;
- document.getElementById('attempts').innerHTML = attempts;      
+document.getElementById('won').innerHTML = won;
+document.getElementById('lost').innerHTML = lost;
+document.getElementById('attempts').innerHTML = attempts;      
  
 }

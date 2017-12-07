@@ -1,5 +1,5 @@
  body {
-      font-family: 'Fondamento', cursive;
+      font-family: 'Fondamento', Georgia, 'Times New Roman', serif, cursive;
       align-content: center;      
       color: rgb(206, 247, 59);      
       font-size: 1.5em;
@@ -7,13 +7,13 @@
       text-align:center;
       vertical-align:center;
       line-height: 36px;  
-    }
+ }
 
     .container {
       display: flex;
       justify-content: center;
-      background-color: black;     
-    }
+      background-color: black;   
+  }
 
     .center {      
       width: 1024px;
