@@ -1,0 +1,52 @@
+ body {
+      font-family: 'Fondamento', cursive;
+      align-content: center;      
+      color: rgb(206, 247, 59);      
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align:center;
+      vertical-align:center;
+      line-height: 36px;  
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      background-color: black;     
+    }
+
+    .center {      
+      width: 1024px;
+      height: 768px;
+      padding-top: 200px;      
+      background-image: url("../images/fortune_teller.png");
+      background-repeat: no-repeat;
+    }
+
+    .wrapper {
+      padding-left: 330px;
+    }
+
+    #won {
+      color: rgb(70, 223, 243);
+      font-size: 1.5em;
+    }
+
+    #lost {
+      color: red;
+      font-size: 1.5em;
+    }
+
+    #attempts {
+      color: green;
+      font-size: 1.2em;
+    }
+
+    #playerGuess {
+      color: blue;
+      font-size: 1.5em;
+    }
+
+    h1 {
+      font-size: 1.6em;
+    }
