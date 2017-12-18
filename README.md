@@ -6,7 +6,7 @@
 [Psychic-Game](https://captnwalker.github.io/week-4-game/)
 
 ### Screenshot
-![Psychic-Game Screenshot](https://raw.github.com/captnwalker/Psychic-Game2/master/screenshot/Psychic-Game.png)
+![Psychic-Game Screenshot](https://raw.github.com/captnwalker/Psychic-Game2/master/screenshots/Psychic-Game.png)
 
 
 
