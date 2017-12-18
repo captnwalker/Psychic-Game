@@ -3,7 +3,7 @@
 ## Random Letter Guessing Game built with JavaScript
 
 ### Link to Live Site
-[Psychic-Game](https://captnwalker.github.io/week-4-game/)
+[Psychic-Game](https://captnwalker.github.io/Psychic-Game2/)
 
 ### Screenshot
 ![Psychic-Game Screenshot](https://raw.github.com/captnwalker/Psychic-Game2/master/screenshots/Psychic-Game.png)
